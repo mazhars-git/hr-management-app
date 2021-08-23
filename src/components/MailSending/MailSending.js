@@ -11,7 +11,7 @@ const MailSending = () => {
                 <Form>
                     <Form.Group className="mb-3" controlId="subject">
                         <Form.Label>Subject</Form.Label>
-                        <Form.Control type="text" placeholder="Subject" />
+                        <Form.Control type="text" placeholder="Subject" required />
                         {/* <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                         </Form.Text> */}
